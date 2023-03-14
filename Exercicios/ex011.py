@@ -1,0 +1,5 @@
+larg = float(input('Qual é a largura da sua parede?'))
+alt = float(input('Qual é a altura da sua parde?'))
+dmi = (larg * alt)
+print('a sua parede tem a dimensão de {}x{} é a sua área é de {}m²'.format(larg, alt, dmi))
+print('para pintar sua parede voce vai precisar de {:.0f}l de tinta'.format(dmi / 2))
